@@ -18,10 +18,7 @@ class User {
   email: string;
 
   @Column()
-  passwold: string;
-
-  @Column('time with time zone')
-  date: Date;
+  password: string;
 
   @CreateDateColumn()
   created_at: Date;
